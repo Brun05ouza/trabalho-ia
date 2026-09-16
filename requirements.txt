@@ -1,0 +1,14 @@
+# Dependências usadas por este trabalho (busca não informada).
+# Não inclui TensorFlow, Keras, OpenCV, Jupyter nem as demais
+# dependências pesadas do aima-python.
+
+numpy
+pytest
+
+# O pacote aima (versão 4.0.0) NÃO vem do PyPI.
+# Ele é instalado em modo editável, sem dependências, a partir de:
+#   vendor/aima-python
+#
+#   pip install -e ./vendor/aima-python --no-deps
+#
+# Não altere os arquivos originais dessa pasta.

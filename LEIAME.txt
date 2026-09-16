@@ -1,0 +1,42 @@
+TRABALHO 1 - AV1
+Inteligência Artificial e Computacional
+
+Grupo:
+05
+
+Problema:
+Recipientes com Água (5L e 3L)
+Problema 03 - versão 1
+
+Integrantes:
+- [Bruno Soares de Souza - 06004612]
+- [Caio Gonçalves da Silva - 06006330]
+
+Requisitos:
+- Python 3.9 ou superior
+
+INSTALAÇÃO
+
+1. Criar ambiente virtual
+   py -3.12 -m venv .venv
+   (ou: python -m venv .venv)
+
+2. Ativar ambiente
+   PowerShell: .\.venv\Scripts\Activate.ps1
+
+3. Instalar dependências
+   python -m pip install --upgrade pip
+   pip install -e ./vendor/aima-python --no-deps
+   pip install -r requirements.txt
+
+   Os algoritmos de busca ficam em vendor/aima-python
+   (https://github.com/aimacode/aima-python).
+   Essa pasta não deve ser alterada.
+
+EXECUÇÃO
+
+python -m src.main
+
+TESTES
+
+pytest -v

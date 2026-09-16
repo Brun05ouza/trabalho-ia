@@ -40,3 +40,8 @@ python -m src.main
 TESTES
 
 pytest -v
+
+REPOSITÓRIO
+
+Se houver problema na instalação ou na execução, consulte o repositório do trabalho:
+https://github.com/Brun05ouza/trabalho-ia
